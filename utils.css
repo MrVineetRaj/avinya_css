@@ -1,0 +1,13 @@
+.width-1{
+    width:100%;
+
+}
+
+:root{
+    --color-1:linear-gradient(to right,#07132b,#07132b,steelblue);
+}
+
+button:active{
+    transform: scale(0.8);
+    transition: transform 0.5s 0;
+}
