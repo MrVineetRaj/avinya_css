@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 12%;
+    background:var(--color-1);
+}
+
+.container{
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+    height: auto;
+    align-items: center;
+    background: linear-gradient(to right, #07132b, #07132b, steelblue);
+}
+
+header a {
+    width: 20%;
+}
+
+header a img {
+    width: 50px;
+}
+
+header .left nav {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.thumbnail {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 15% 60px 15%;
+    background: linear-gradient(to right, #07132b, #07132b, steelblue);
+}
+
+.thumbnail .right {
+    color: white;
+    padding-left: 30px;
+}
+
+.thumbnail .right h2 {
+    text-align: right;
+    width: 500px;
+}
+
+.thumbnail .right button {
+    float: right;
+    width: auto;
+    margin: 30px 0px;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(131, 197, 250);
+
+}
+
+.thumbnail .left {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.thumbnail .left img {
+    width: 400px;
+}
+
+
+.contest-1 {
+    background: var(--color-1);
+    padding: 40px;
+}
+
+.contest-1 .inner-div {
+    background: linear-gradient(to right, #0a050b, #0a050b, #3a2736);
+    border: 5px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.4);
+}
+
+.contest-1 .inner-div .left {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    padding: 0 30px 0 0;
+}
+
+.contest-1 .inner-div .right {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contest-1 .inner-div .right img {
+    width: 400px;
+}
+
+/*  */
+.contest-2 {
+    background: var(--color-1);
+    padding: 40px;
+}
+
+.contest-2 .inner-div {
+    background: linear-gradient(to right, #0a050b, #0a050b, #3a2736);
+    /* background: linear-gradient(to right #3d0041,#5200d3); */
+    border: 5px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.contest-2 .inner-div .right {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    text-align: right;
+    padding: 0 0 0 30px;
+}
+
+.contest-2 .inner-div .left {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contest-2 .inner-div .left img {
+    width: 400px;
+}
+
+.members {
+    background: var(--color-1);
+    color: white;
+    width: 100vw;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.members .inner-div {
+    width: 100%;
+    background: linear-gradient(to bottom,#20222e,#20222e,#20222e,#20222e,#20222e,#20222e,#20222e,#05b2ec);
+    border: 5px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+}
+
+.members .inner-div .ds{
+    position: absolute;
+    background: #20222e;
+    padding: 0;
+    font-size: 25px;
+    top: 130px;
+    left: 70px;
+    height:100px;
+}
+.members .inner-div .left{
+    /* background: #20222e; */
+    padding: 0;
+    /* font-size: 30px; */
+    /* height:100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.members .inner-div .left img{
+    
+    height:340px;
+}
+.members .inner-div .right{
+
+    padding: 100px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: rgb(3, 254, 3);
+    display :flex;
+    padding: 10%;
+    margin: 40px 5%;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.footer .left{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer .left img{
+    width:100px;
+}
+.footer .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .right form{
+    display: flex;
+    flex-direction: column;
+}
+.footer .h3 h3{
+    display: flex;
+    flex-direction: column;
+}
+.footer .right form input{
+    padding: 5px 30px;
+    margin: 5px 0;
+}
+.footer .right form button{
+    background: steelblue;
+    border: 0;
+    margin: 20px 0;
+    width: 50%;
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
